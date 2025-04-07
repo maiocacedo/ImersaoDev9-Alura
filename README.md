@@ -1,17 +1,17 @@
-# Imersao Dev #9 Alura
+# *Imersao Dev #9 Alura*
 
-A Imersão Dev consiste numa serie de 5 aulas onde foram desenvolvidos os tópicos mais 
+A *Imersão Dev* consiste numa serie de 5 aulas onde foram desenvolvidos os tópicos mais 
 importantes das linguagens que são pilares do desenvolvimento web:
-- JavaScript 
-- CSS
-- HTML
+- **JavaScript** 
+- **CSS**
+- **HTML**
 
-### Aulas:  
-Aula 1: Conversão de moedas. <br>
-Aula 2: Pedra, Papel, Tesoura, Lagarto e Spock. <br>
-Aula 3: Jogo da Ponte de vidro (Round Six). <br>
-Aula 4: Cabo de Guerra com vários personagens. <br>
-Aula 5: Quiz.
+### **Aulas**:  
+- **Aula 1**: Conversão de moedas. 
+- **Aula 2**: Pedra, Papel, Tesoura, Lagarto e Spock. 
+- **Aula 3**: Jogo da Ponte de vidro (Round Six). 
+- **Aula 4**: Cabo de Guerra com vários personagens. 
+- **Aula 5**: Quiz.
 
 ### Tópicos abordados:
 - Tipos primitivos, Variáveis e Operações
