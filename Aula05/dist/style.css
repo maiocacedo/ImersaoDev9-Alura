@@ -1,0 +1,152 @@
+body {
+  background-size: cover;
+  font-family: "Gabarito", sans-serif;
+  margin: 20px;
+}
+
+.logo {
+  text-align: end;
+}
+
+.logo img {
+  width: 40%;
+}
+
+.background-image{
+  background-image: url('https://i.postimg.cc/3JSqLGkp/imagem-2025-04-06-140735075.png');
+  display: flex;
+  background-size :cover;
+  width: 100%;
+  height: 100%;
+  filter: blur(4px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+/* Caixa principal do jogo */
+.conteudo-jogo {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px #660099;
+  margin: 30px;
+  padding: 20px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  transition: background 0.3s;
+}
+
+.conteudo-jogo:hover {
+  background: rgba(0, 0, 0);
+  box-shadow: 0 0 5px #3D836A;
+}
+
+/* Títulos e textos */
+h2,
+p {
+  font-size: 2rem;
+  color: #86479C;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #660099;
+}
+
+h1{
+  font-size: 1.2rem;
+  color:  #669E6A;
+  text-align: center;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #3D836A;
+}
+
+/* Estrutura do questionário */
+.questionario {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 70%;
+  max-width: 70%;
+}
+
+/* Área de conteúdo */
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  gap: 20px;
+}
+
+/* Estilo da pergunta */
+.pergunta {
+  font-weight: 600;
+   color:  #669E6A; 
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color:#3D836A;
+}
+
+/* Progresso da pergunta */
+.progresso {
+  text-align: end;
+  font-size: small;
+  font-weight: 500;
+  color: white;
+}
+
+/* Área das respostas */
+.respostas {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+   color:  #669E6A; 
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color:#3D836A;
+}
+
+/* Botões de resposta */
+.botao-resposta {
+  width: 100%;
+  height: 2.5rem;
+  text-align: start;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background: #660099;;
+  color: white;
+}
+
+.botao-resposta:hover {
+  background: #3D836A;
+  font-weight: 600;
+}
+
+/* Tela de fim do jogo */
+.fim {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fim span {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+
+button {
+  padding: 20px 20px;
+  border: none;
+  background: #6dc034;
+  
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #3D836A;
+}
