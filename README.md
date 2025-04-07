@@ -7,10 +7,10 @@ importantes das linguagens que são pilares do desenvolvimento web:
 - HTML
 
 ### Aulas:  
-Aula 1: Conversão de moedas.
-Aula 2: Pedra, Papel, Tesoura, Lagarto e Spock.
-Aula 3: Jogo da Ponte de vidro (Round Six).
-Aula 4: Cabo de Guerra com vários personagens.
+Aula 1: Conversão de moedas. <br>
+Aula 2: Pedra, Papel, Tesoura, Lagarto e Spock. <br>
+Aula 3: Jogo da Ponte de vidro (Round Six). <br>
+Aula 4: Cabo de Guerra com vários personagens. <br>
 Aula 5: Quiz.
 
 ### Tópicos abordados:
